@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+*{
+    text-decoration: none;
+    color: #EE4036;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("OIP.jfif");
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(22, 19, 19);
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 50, 50, 0.456);
+    border-radius: 1vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 5vh 5vh 5vh;
+    font-size: 3.5vh;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 1vh 0 1vh;
+}
+.logo_img{
+    width: 13vh;
+    cursor: pointer;
+}
+.spec-list{
+    list-style: none;
+}
+td{
+    padding:5vh 8vh 0 0;
+    width: 35vh;
+    height: 8vh;
+}
+.name-spec{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 0 5vh 0;
+}
+.vr{
+    border: 0.1vh solid;
+}

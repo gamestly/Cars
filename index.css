@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+*{
+    text-decoration: none;
+    color: #EE4036;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("OIP.jfif");
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(22, 19, 19);
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 50, 50, 0.456);
+    border-radius: 1vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 5vh 5vh 5vh;
+    font-size: 3.5vh;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 1vh 0 1vh;
+}
+.logo_img{
+    width: 13vh;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+}
+.supra{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 50, 50, 0.456);
+    margin: 0 5vh 0 5vh;
+    backdrop-filter: invert(70%);
+    backdrop-filter: blur(5px);
+}
+.Rsupra{
+    width: 90vh;
+    margin: 10vh;
+    margin-left: -40vh;
+    transition: all 0.3s ease;
+}
+.Rsupra:hover{
+    margin-left: 0;
+}
+.suprahead{
+    padding: 10vh 8vh 10vh 5vh;
+    color: #ffffff;
+    font-size: 3vh;
+    writing-mode: vertical-lr;
+    transition: all 0.3s;
+}
+.suprahead:hover{
+    font-size: small;
+    padding:7.6vh 10vh 7vh 0;
+    transform: translateX(6vh);
+}
+.gt3{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(140, 122, 255, 0.183);
+    margin: 0 5vh 0 5vh;
+    border-radius: 5vh 5vh 0 0;
+    backdrop-filter: invert(70%);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+.porsche-911:hover{
+    margin: 0;
+}
+.porsche-911{
+    width: 90vh;
+    margin-left: -40vh;
+    transition: all 0.3s ease;
+}
+.porsche{
+    padding: 13vh 10vh 0 0;
+    color: blue;
+    font-size: x-small;
+    writing-mode: vertical-lr;
+    transition: all 0.3s;
+}
+.porsche:hover{
+    font-size: small;
+    padding: 10vh 5vh 0 10vh;
+    transform: translateX(1vh);
+}
+.LHuracan{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(172, 198, 93, 0.196);
+    margin: 0 5vh 0 5vh;
+    backdrop-filter: invert(70%);
+    backdrop-filter: blur(5px);
+}
+.lamboH{
+    width: 90vh;
+    position: static;
+    margin-right: -40vh;
+    transition: all 0.3s ease;
+}
+.lamboH:hover{
+    margin: 0;
+}
+.huracan{
+    padding: 10vh 5vh 0 10vh;
+    color: black;
+    font-size: 3vh;
+    writing-mode: vertical-lr;
+    transition: all 0.3s;
+}
+.huracan:hover{
+    font-size: small;
+    padding: 7vh 5vh 0 13vh;
+    transform: translateX(-7vh);
+}
+.huracan-vr .supra-vr .gt3-vr .agera-vr{
+    color: red;
+    font-weight: 900;
+}
+.main-heading{
+    font-weight: bolder;
+    text-shadow: 0 0 5px blue;
+}
+.koenigsegg{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(93, 198, 159, 0.196);
+    margin: 0 5vh 0 5vh;
+    padding:1vh 0 5vh 0;
+    backdrop-filter: invert(70%);
+    backdrop-filter: blur(5px);
+}
+.one{
+    margin-top: 15vh;
+    height: 150px;
+    position: static;
+    margin-right: -40vh;
+    transition: all 0.3s ease;
+}
+.one:hover{
+    margin-right: 0;
+}
+.onehead{
+    padding: 10vh 5vh 0 10vh;
+    color: black;
+    font-size: 3vh;
+    writing-mode: vertical-lr;
+    transition: all 0.3s;
+}
+.onehead:hover{
+    font-size: small;
+    padding: 7vh 5vh 0 13vh;
+    transform: translateX(-7vh);
+}
