@@ -57,6 +57,7 @@ body{
 ul{
     list-style: none;
 }
+
 td{
     padding:5vh 8vh 0 0;
     width: 35vh;
@@ -82,5 +83,12 @@ td{
     height: 20%;
     margin-top: 10%;
     margin-left: 10%;
+}
+.dimensions{
+    padding-top: 4%;
+    padding-bottom: 15%;
+}
+.hr{
+    color: #EE4036;
 }
 
