@@ -4,7 +4,7 @@
 html{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
+
 }
 *{
     text-decoration: none;
@@ -20,6 +20,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-style: italic;
+    overflow-x: hidden;
     
 }
 ::-webkit-scrollbar{
@@ -50,7 +51,10 @@ body{
     width: 13vh;
     cursor: pointer;
 }
-.spec-list{
+.specs{
+    display: flex;
+}
+ul{
     list-style: none;
 }
 td{
@@ -66,3 +70,17 @@ td{
 .vr{
     border: 0.1vh solid;
 }
+.front-ack{
+    display: block;
+}
+.front{
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.ack{
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
