@@ -13,7 +13,6 @@ html{
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
     background-attachment: fixed;
     background-image: url("OIP.jfif");
     background-size: cover;
@@ -53,6 +52,8 @@ body{
 }
 .specs{
     display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 ul{
     list-style: none;
@@ -90,5 +91,8 @@ td{
 }
 .hr{
     color: #EE4036;
+}
+.column2{
+    max-height: 100%;
 }
 
